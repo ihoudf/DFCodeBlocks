@@ -1,15 +1,16 @@
-# <img src="https://github.com/ihoudf/DFCodeBlocks/blob/master/Logo.png?raw=true" width="260">
+# <img src="https://github.com/ihoudf/DFCodeBlocks/blob/master/Logo.png?raw=true" width="360">
 
 
 
 #### DFCodeBlocks是一个Xcode的代码块合集。
-#### 目前包含Objective-C和swift两种语言，且在不断更新中...
+#### 目前包含Objective-C和swift两种语言，仍在不断更新中...
 <br>
 
 ## 示例：
 <img src="https://github.com/ihoudf/DFCodeBlocks/blob/master/use.gif?raw=true" width="360">
-
+<br>
 ## 支持：
+
 | CodeBlock              | Objective-C | Swift  |  shortcut key|   
 | ---------------------- |:-:| :-:| ------ |
 | @property              | ✔️ | ❌ | property
@@ -34,8 +35,9 @@
 | UIPickerViewDataSource | ✔️ | ❌ | dfuipickerviewdatasource
 | UIWindow               | ✔️ | ❌ | dfuiwindow
 
-注意：shortcut key即快捷键，使用时不需要全部输入，以dfuiscrollviewdelegate为例，在合适的位置连续输入df ui s d等关键字符已经有了代码提示。
+注意：shortcut key即快捷键，命名规范是df+控件名小写。
 
+<br>
 
 ## 使用：
 1、下载，并复制CodeSnippets文件夹下的所有文件。
@@ -46,9 +48,8 @@
 ```
 3、将第一步复制的内容，粘贴到第二步的地址下，重启Xcode
 <br>
-
-## 
-
+4、以UIScrollViewDelegate为例。它的快捷键是dfuiscrollviewdelegate，在合适的位置连续输入df ui s d等关键字符就会有代码提示。
+<br>
 
 ## 建议：
 
