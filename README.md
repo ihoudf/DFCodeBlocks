@@ -1,4 +1,4 @@
-# <img src="https://github.com/ihoudf/DFCodeBlocks/blob/master/Logo.png?raw=true" width="360">
+# <img src="Logo.png" width="300">
 
 
 
@@ -7,8 +7,10 @@
 <br>
 
 ## 示例：
-<img src="https://github.com/ihoudf/DFCodeBlocks/blob/master/use.gif?raw=true" width="360">
+<img src="Use.gif" width="300">
+
 <br>
+
 ## 支持：
 
 | CodeBlock              | Objective-C | Swift  |  shortcut key|   
@@ -35,12 +37,12 @@
 | UIPickerViewDataSource | ✔️ | ❌ | dfuipickerviewdatasource
 | UIWindow               | ✔️ | ❌ | dfuiwindow
 
-注意：shortcut key即快捷键，命名规范是df+控件名小写。
+注意：shortcut key即快捷键，命名方法是df+控件名小写。
 
 <br>
 
 ## 使用：
-1、下载，并复制CodeSnippets文件夹下的所有文件。
+1、下载，并复制CodeSnippets文件夹下的所有文件
 <br>
 2、在mac的finder中前往文件夹地址：
 ```
@@ -48,7 +50,8 @@
 ```
 3、将第一步复制的内容，粘贴到第二步的地址下，重启Xcode
 <br>
-4、以UIScrollViewDelegate为例。它的快捷键是dfuiscrollviewdelegate，在合适的位置连续输入df ui s d等关键字符就会有代码提示。
+4、以UIScrollViewDelegate为例。它的快捷键是dfuiscrollviewdelegate，在合适的位置连续输入df ui s d等关键字符就会有代码提示
+
 <br>
 
 ## 建议：
