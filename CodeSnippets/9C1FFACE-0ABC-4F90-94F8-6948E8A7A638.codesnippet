@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UITextField *&lt;#textField#&gt; = [[UITextField alloc] init];
+    &lt;#textField#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#textField#&gt;.backgroundColor = [UIColor &lt;#color#&gt;];
+    &lt;#textField#&gt;.delegate = self;
+    &lt;#textField#&gt;.placeholder = &lt;#@""#&gt;;
+    &lt;#textField#&gt;.text = &lt;#@""#&gt;;
+    &lt;#textField#&gt;.textColor = [UIColor &lt;#color#&gt;];
+    &lt;#textField#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;
+    &lt;#textField#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#textField#&gt;.enabled = &lt;#YES#&gt;;
+    &lt;#textField#&gt;.secureTextEntry = &lt;#NO#&gt;;
+    &lt;#textField#&gt;.clearButtonMode = UITextFieldViewMode&lt;#Never#&gt;;
+    &lt;#textField#&gt;.borderStyle = UITextBorderStyle&lt;#None#&gt;;
+    &lt;#textField#&gt;.keyboardType = UIKeyboardType&lt;#Default#&gt;;
+    &lt;#textField#&gt;.returnKeyType = UIReturnKey&lt;#Default#&gt;;
+    &lt;#textField#&gt;.keyboardAppearance = UIKeyboardAppearance&lt;#Default#&gt;;
+    [&lt;#self.view#&gt; addSubview:&lt;#textField#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9C1FFACE-0ABC-4F90-94F8-6948E8A7A638</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

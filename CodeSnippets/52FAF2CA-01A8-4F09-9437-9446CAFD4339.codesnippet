@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIWindow *&lt;#window#&gt; = [[UIWindow alloc] init];
+    &lt;#window#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#window#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
+    &lt;#window#&gt;.rootViewController = &lt;#rootViewController#&gt;;
+    [&lt;#self.view#&gt; addSubview:&lt;#window#&gt;];
+    [&lt;#window#&gt; makeKeyAndVisible];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52FAF2CA-01A8-4F09-9437-9446CAFD4339</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIWindow</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

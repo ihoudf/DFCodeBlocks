@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>   UITextView *&lt;#textView#&gt; = [[UITextView alloc] init];
+    &lt;#textView#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#textView#&gt;.backgroundColor = [UIColor &lt;#color#&gt;];
+    &lt;#textView#&gt;.scrollEnabled = &lt;#YES#&gt;;
+    &lt;#textView#&gt;.editable = &lt;#YES#&gt;;
+    &lt;#textView#&gt;.delegate = self;
+    &lt;#textView#&gt;.text = &lt;#@""#&gt;;
+    &lt;#textView#&gt;.textColor = [UIColor &lt;#color#&gt;];
+    &lt;#textView#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;
+    &lt;#textView#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+    &lt;#textView#&gt;.keyboardType = UIKeyboardType&lt;#Default#&gt;;
+    &lt;#textView#&gt;.returnKeyType = UIReturnKey&lt;#Default#&gt;;
+    &lt;#textView#&gt;.keyboardAppearance = UIKeyboardAppearance&lt;#Default#&gt;;
+    [&lt;#self.view#&gt; addSubview:&lt;#textView#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4A4ED1A4-E3C2-4200-8A84-A9885790E5CF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

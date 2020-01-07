@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  UIButton *&lt;#button#&gt; = [UIButton buttonWithType:&lt;#(UIButtonType)#&gt;];
+    &lt;#button#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#button#&gt;.backgroundColor = [UIColor &lt;#color#&gt;];
+    &lt;#button#&gt;.titleLabel.font = &lt;#font#&gt;;
+    [&lt;#button#&gt; setTitle:&lt;#(nullable NSString *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [&lt;#button#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [button setImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [&lt;#button#&gt; setBackgroundImage:&lt;#(nullable UIImage *)#&gt; forState:&lt;#(UIControlState)#&gt;];
+    [&lt;#button#&gt; addTarget:&lt;#(nullable id)#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:(UIControlEventTouch&lt;#UpInside#&gt;)];
+    [&lt;#self.view#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C33CF6CE-947F-4AC2-8C8F-AAFE8C70F23F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

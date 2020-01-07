@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfu</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>   UIScrollView *&lt;#scrollView#&gt; = [[UIScrollView alloc] init];
+    &lt;#scrollView#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#scrollView#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
+    &lt;#scrollView#&gt;.delegate = self;
+    &lt;#scrollView#&gt;.scrollEnabled = &lt;#YES#&gt;;
+    &lt;#scrollView#&gt;.pagingEnabled = &lt;#NO#&gt;;
+    &lt;#scrollView#&gt;.showsVerticalScrollIndicator = &lt;#YES#&gt;;
+    &lt;#scrollView#&gt;.showsHorizontalScrollIndicator = &lt;#YES#&gt;;
+    &lt;#scrollView#&gt;.bounces = &lt;#YES#&gt;;
+    &lt;#scrollView#&gt;.alwaysBounceVertical = &lt;#NO#&gt;;
+    &lt;#scrollView#&gt;.alwaysBounceHorizontal = &lt;#NO#&gt;;
+    &lt;#scrollView#&gt;.contentOffset = CGPoint&lt;#Zero#&gt;;
+    &lt;#scrollView#&gt;.contentSize = CGSize&lt;#Zero#&gt;;
+    &lt;#scrollView#&gt;.contentInset = UIEdgeInsets&lt;#Zero#&gt;;
+    [&lt;#self.view#&gt; addSubview:&lt;#scrollView#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>522B691A-0BE2-4B27-906E-37D25EA888F8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
