@@ -3,41 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dfuiscrollviewdelegate</string>
+	<string>dfuicollectionviewdatasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UIScrollViewDelegate
+	<string>#pragma mark - UICollectionViewDataSource
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     
 }
 
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
 }
 
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
 }
 
-- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollVie {
-    
-}
-
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CDA15EB2-D104-47FD-89FB-F241C1C02965</string>
+	<string>D482B2A8-14FD-448B-9DAF-B7B97549D23A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIScrollViewDelegate</string>
+	<string>UICollectionViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

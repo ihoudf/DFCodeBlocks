@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuicollectionview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    layout.itemSize = CGSize&lt;#Zero#&gt;;
+    layout.sectionInset = UIEdgeInsets&lt;#Zero#&gt;;
+    layout.scrollDirection = UICollectionViewScrollDirection&lt;#Horizontal#&gt;;
+    layout.minimumInteritemSpacing = &lt;#0#&gt;;
+    layout.minimumLineSpacing = &lt;#0#&gt;;
+    layout.headerReferenceSize = CGSize&lt;#Zero#&gt;;
+    layout.footerReferenceSize = CGSize&lt;#Zero#&gt;;
+    
+    UICollectionView *&lt;#collectionView#&gt; = [[UICollectionView alloc]initWithFrame:CGSize&lt;#Zero#&gt; collectionViewLayout:layout];
+    &lt;#collectionView#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
+    &lt;#collectionView#&gt;.delegate = self;
+    &lt;#collectionView#&gt;.dataSource = self;
+    [&lt;#self.view#&gt; addSubview:&lt;#collectionView#&gt;];
+    [&lt;#collectionView#&gt; registerClass:[&lt;#cell#&gt; class] forCellWithReuseIdentifier:&lt;#reuseIdentifier#&gt;];
+    [&lt;#collectionView#&gt; registerClass:[&lt;#UICollectionReusableView#&gt; class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:&lt;#reuseIdentifier#&gt;];
+    [&lt;#collectionView#&gt; registerClass:[&lt;#UICollectionReusableView#&gt; class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:&lt;#reuseIdentifier#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>81B4855E-BCC1-4F93-9D0E-D5FD23973705</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

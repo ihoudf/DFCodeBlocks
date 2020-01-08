@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dfu</string>
+	<string>dfuitableview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
+	<string>    UITableView *&lt;#tableView#&gt; = [[UITableView alloc] initWithFrame:(CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)) style:&lt;#(UITableViewStyle)#&gt;];
     &lt;#tableView#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
     &lt;#tableView#&gt;.delegate = self;
     &lt;#tableView#&gt;.dataSource = self;
@@ -21,7 +21,7 @@
     &lt;#tableView#&gt;.tableFooterView = &lt;#footerView#&gt;;
     [&lt;#self.view#&gt; addSubview:&lt;#tableView#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4F182BDA-B48F-4CFB-95FD-94A3AFBF686C</string>
+	<string>A57A01D0-485E-454D-9925-BC3BF7AB8AA0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>

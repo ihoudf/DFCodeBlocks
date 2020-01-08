@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dfuiimageview</string>
+	<string>dfuipickerview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    UIImageView *&lt;#imageView#&gt; = [[UIImageView alloc] init];
-    &lt;#imageView#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
-    &lt;#imageView#&gt;.backgroundColor = [UIColor &lt;#whiteColor#&gt;];
-    &lt;#imageView#&gt;.image = [UIImage imageNamed:&lt;#@""#&gt;];
-    [&lt;#self.view#&gt; addSubview:&lt;#imageView#&gt;];</string>
+	<string>    UIPickerView *&lt;#pickerView#&gt; = [[UIPickerView alloc] init];
+    &lt;#pickerView#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
+    &lt;#pickerView#&gt;.delegate = self;
+    &lt;#pickerView#&gt;.dataSource = self;
+    [&lt;#self.view#&gt; addSubview:&lt;#pickerView#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BF14B504-E06F-4714-98AF-796A11822353</string>
+	<string>B9C3535E-A33D-4F44-8D23-D27E1FBE5FEE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIImageView</string>
+	<string>UIPickerView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

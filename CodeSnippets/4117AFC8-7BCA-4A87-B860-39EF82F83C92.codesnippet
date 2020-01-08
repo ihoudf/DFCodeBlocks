@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuicollectionview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  let layout = UICollectionViewFlowLayout()
+        layout.itemSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+        layout.sectionInset = UIEdgeInsets(top: &lt;#T##CGFloat#&gt;, left: &lt;#T##CGFloat#&gt;, bottom: &lt;#T##CGFloat#&gt;, right: &lt;#T##CGFloat#&gt;)
+        layout.scrollDirection = .&lt;#horizontal#&gt;
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
+        layout.headerReferenceSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+        layout.footerReferenceSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+        
+        let &lt;#cw#&gt; = UICollectionView(frame: CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;), collectionViewLayout: layout)
+        &lt;#cw#&gt;.backgroundColor = .&lt;#white#&gt;
+        &lt;#cw#&gt;.delegate = self
+        &lt;#cw#&gt;.dataSource = self
+        &lt;#self.view#&gt;.addSubview(&lt;#cw#&gt;)
+        &lt;#cw#&gt;.register(&lt;#T##viewClass: AnyClass?##AnyClass?#&gt;, forSupplementaryViewOfKind: &lt;#T##String#&gt;, withReuseIdentifier: &lt;#T##String#&gt;)
+        &lt;#cw#&gt;.register(supplementaryViewType: &lt;#T##Reusable.Protocol#&gt;, ofKind: &lt;#T##String#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4117AFC8-7BCA-4A87-B860-39EF82F83C92</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
