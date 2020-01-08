@@ -31,8 +31,8 @@
 | ---------------------------------- |:-:| :-:| ------ |
 | @property                          | ✔️ | ❌ | property
 | mark                               | ✔️ | ✔️ | mark
-| todo                               | ❌ | ✔️ | mark
-| fixme                              | ❌ | ✔️ | mark
+| todo                               | ❌ | ✔️ | todo
+| fixme                              | ❌ | ✔️ | fixme
 | warning                            | ✔️ | ❌ | warning
 | UIViewControllerLifeCycle          | ✔️ | ✔️ | dfvclifecycle
 | UIView                             | ✔️ | ❌ | dfuiview
