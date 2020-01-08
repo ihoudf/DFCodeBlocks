@@ -1,4 +1,4 @@
-# <img src="Logo.png" width="300">
+# <img src="Logo.png" width="350">
 
 
 ### DFCodeBlocks是一个Xcode的代码块合集，常用代码再也不用一遍一遍地敲了!
@@ -6,18 +6,17 @@
 ❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀
 
 #### 想写一个UIScrollView？键盘输入"快捷键"中的dfus等关键字符,会有如图提示：
-<img src="use1.png" width="360">
+<img src="use1.png" width="400">
 
 #### 按下回车，会得到：
-<img src="use2.png" width="360">
+<img src="use2.png" width="400">
 
 #### 像做填空题一样写代码，简直不要太爽啊！
-#### 什么？还要写代理？So Easy！！！
-#### 键盘输入关键字：
-<img src="use3.png" width="360">
+#### 什么？还要写代理？So Easy！！！ 键盘输入关键字：
+<img src="use3.png" width="400">
 
 #### 回车：
-<img src="use4.png" width="360">
+<img src="use4.png" width="400">
 
 #### 写代码也太快太简单了吧😁
 
