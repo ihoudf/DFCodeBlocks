@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuilabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>       let &lt;#lb#&gt; = UILabel()
+        &lt;#lb#&gt;.frame = CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+        &lt;#lb#&gt;.backgroundColor = UIColor.&lt;#white#&gt;
+        &lt;#lb#&gt;.text = &lt;#""#&gt;
+        &lt;#lb#&gt;.textColor = UIColor.&lt;#black#&gt;
+        &lt;#lb#&gt;.textAlignment = .&lt;#left#&gt;
+        &lt;#lb#&gt;.font = UIFont.systemFont(ofSize: &lt;#14#&gt;)
+        &lt;#self.view#&gt;.addSubview(&lt;#lb#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>81817312-F30A-417E-AE87-938515BFC9E8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

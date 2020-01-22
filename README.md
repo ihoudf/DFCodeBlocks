@@ -34,9 +34,9 @@
 | fixme                              | ❌ | ✔️ | fixme
 | warning                            | ✔️ | ❌ | warning
 | UIViewControllerLifeCycle          | ✔️ | ✔️ | dfvclifecycle
-| UIView                             | ✔️ | ❌ | dfuiview
-| UIButton                           | ✔️ | ❌ | dfuibutton
-| UILabel                            | ✔️ | ❌ | dfuilabel
+| UIView                             | ✔️ | ✔️ | dfuiview
+| UIButton                           | ✔️ | ✔️ | dfuibutton
+| UILabel                            | ✔️ | ✔️ | dfuilabel
 | UIImageView                        | ✔️ | ❌ | dfuiimageview
 | UITextField                        | ✔️ | ❌ | dfuitextfield
 | UITextFieldDelegate                | ✔️ | ❌ | dfuitextfielddelegate
@@ -55,6 +55,11 @@
 | UICollectionViewDataSource         | ✔️ | ✔️ | dfuicollectionviewdatasource
 | UICollectionViewDelegate           | ✔️ | ✔️ | dfuicollectionviewdelegate
 | UICollectionViewDelegateFlowLayout | ✔️ | ✔️ | dfuicollectionviewdelegateflowlayout
+| CGRect-CGFloat                     | ❌ | ✔️ | dfcgrectfloat
+| CGRect-Double                      | ❌ | ✔️ | dfcgrectdouble
+| CGRect-Int                         | ❌ | ✔️ | dfcgrectint
+| UIEdgeInsets                       | ❌ | ✔️ | dfuiedgeinsets
+
 
 
 <br>
@@ -70,6 +75,6 @@
 
 <br>
 
-## 建议：
+# ❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀Thanks❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀
 
-我认为这是一件有趣的事情，如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。
+<!-- 我认为这是一件有趣的事情，如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。 -->
