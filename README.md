@@ -75,6 +75,6 @@
 
 <br>
 
-# ❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀Thanks❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀
+# ❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀Thanks❀❀❀❀❀❀❀❀❀❀❀❀❀❀
 
 <!-- 我认为这是一件有趣的事情，如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。 -->
