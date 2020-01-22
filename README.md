@@ -23,8 +23,8 @@
 <br>
 
 ## 支持：
-#### 目前包含Objective-C和swift两种语言，仍在不断更新中...
-#### ps：shortcut key即快捷键，命名方法是df+控件名小写。加df前缀可避免与控件原代码提示冲突。
+#### 包括Objective-C和swift两种语言，不断更新中...
+#### ps：shortcut key即快捷键，命名方法是df+控件名小写。加df前缀可避免与控件的原代码提示冲突。
 
 | CodeBlock                          | Objective-C | Swift | shortcut key |   
 | ---------------------------------- |:-:| :-:| ------ |
@@ -75,6 +75,6 @@
 
 <br>
 
-# ❀❀❀❀❀❀❀❀❀❀❀❀ Thanks ❀❀❀❀❀❀❀❀❀❀❀
+#  ❀❀❀❀❀❀❀❀❀❀❀❀  Thanks  ❀❀❀❀❀❀❀❀❀❀❀
 
 <!-- 我认为这是一件有趣的事情，如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。 -->
