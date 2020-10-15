@@ -9,12 +9,12 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> UILabel *&lt;#label#&gt; = [[UILabel alloc] init];
+	<string>    UILabel *&lt;#label#&gt; = [[UILabel alloc] init];
     &lt;#label#&gt;.frame = CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
     &lt;#label#&gt;.backgroundColor = [UIColor &lt;#color#&gt;];
     &lt;#label#&gt;.text = &lt;#@""#&gt;;
     &lt;#label#&gt;.textColor = [UIColor &lt;#color#&gt;];
-&lt;#label#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;
+    &lt;#label#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;
     &lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
     [&lt;#self.view#&gt; addSubview:&lt;#label#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>

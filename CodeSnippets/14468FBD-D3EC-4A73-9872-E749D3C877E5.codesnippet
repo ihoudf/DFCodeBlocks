@@ -9,10 +9,10 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        let &lt;#v#&gt; = UIView()
-        &lt;#v#&gt;.frame = CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
-        &lt;#v#&gt;.backgroundColor = UIColor.&lt;#black#&gt;
-        &lt;#self.view#&gt;.addSubview(&lt;#v#&gt;)</string>
+	<string>    let &lt;#v#&gt; = UIView()
+    &lt;#v#&gt;.frame = CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+    &lt;#v#&gt;.backgroundColor = .&lt;#white#&gt;
+    &lt;#self.view#&gt;.addSubview(&lt;#v#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>14468FBD-D3EC-4A73-9872-E749D3C877E5</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

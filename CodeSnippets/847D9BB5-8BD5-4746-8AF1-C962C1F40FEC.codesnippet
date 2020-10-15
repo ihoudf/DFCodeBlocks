@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>dftypedefenum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, &lt;#strong#&gt;) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>typedef NS_ENUM(&lt;#NSUInteger#&gt;, &lt;#type#&gt;) {
+   
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>459DFFF9-6CCE-45F4-9F7F-DE52F0697707</string>
+	<string>847D9BB5-8BD5-4746-8AF1-C962C1F40FEC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property</string>
+	<string>typedef</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,16 +9,16 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>      let &lt;#btn#&gt; = UIButton(type: .system)
-        &lt;#btn#&gt;.frame = CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
-        &lt;#btn#&gt;.backgroundColor = UIColor.&lt;#black#&gt;
-        &lt;#btn#&gt;.titleLabel?.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;)
-        &lt;#btn#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: .&lt;#normal#&gt;)
-        &lt;#btn#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .&lt;#normal#&gt;)
-        &lt;#btn#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: .&lt;#normal#&gt;)
-        &lt;#btn#&gt;.setBackgroundImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: .&lt;#normal#&gt;)
-        &lt;#btn#&gt;.addTarget(&lt;#self#&gt;, action: #selector(&lt;#T##@objc method#&gt;), for: .&lt;#touchUpInside#&gt;)
-        &lt;#self.view#&gt;.addSubview(&lt;#btn#&gt;)</string>
+	<string>    let &lt;#btn#&gt; = UIButton(type: .system)
+    &lt;#btn#&gt;.frame = CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;)
+    &lt;#btn#&gt;.backgroundColor = .&lt;#black#&gt;
+    &lt;#btn#&gt;.titleLabel?.font = .systemFont(ofSize: &lt;#T##CGFloat#&gt;)
+    &lt;#btn#&gt;.setTitle(&lt;#T##title: String?##String?#&gt;, for: .&lt;#normal#&gt;)
+    &lt;#btn#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: .&lt;#normal#&gt;)
+    &lt;#btn#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: .&lt;#normal#&gt;)
+    &lt;#btn#&gt;.setBackgroundImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: .&lt;#normal#&gt;)
+    &lt;#btn#&gt;.addTarget(&lt;#self#&gt;, action: #selector(&lt;#T##@objc method#&gt;), for: .&lt;#touchUpInside#&gt;)
+    &lt;#self.view#&gt;.addSubview(&lt;#btn#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>75D5CA8A-DC28-4FDA-AE93-DF7DF53C691C</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -30,6 +30,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

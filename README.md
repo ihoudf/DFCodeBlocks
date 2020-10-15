@@ -3,7 +3,7 @@
 
 ### DFCodeBlocks是一个Xcode的代码块合集，常用代码再也不用一遍一遍地敲了!
 <br>
-❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀
+❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀❀
 
 #### 想写一个UIScrollView？键盘输入"快捷键"中的dfus等关键字符,会有如图提示：
 <img src="use1.png" width="400">
@@ -29,15 +29,18 @@
 | CodeBlock                          | Objective-C | Swift | shortcut key |   
 | ---------------------------------- |:-:| :-:| ------ |
 | @property                          | ✔️ | ❌ | property
+| warning                            | ✔️ | ❌ | warning
+| @available                         | ✔️ | ❌ | dfavailable
+| typedef enum                       | ✔️ | ❌ | dftypedefenum
 | mark                               | ✔️ | ✔️ | mark
 | todo                               | ❌ | ✔️ | todo
 | fixme                              | ❌ | ✔️ | fixme
-| warning                            | ✔️ | ❌ | warning
+| private let                        | ❌ | ✔️ | dfprivatelet
 | UIViewControllerLifeCycle          | ✔️ | ✔️ | dfvclifecycle
 | UIView                             | ✔️ | ✔️ | dfuiview
 | UIButton                           | ✔️ | ✔️ | dfuibutton
 | UILabel                            | ✔️ | ✔️ | dfuilabel
-| UIImageView                        | ✔️ | ❌ | dfuiimageview
+| UIImageView                        | ✔️ | ✔️ | dfuiimageview
 | UITextField                        | ✔️ | ❌ | dfuitextfield
 | UITextFieldDelegate                | ✔️ | ❌ | dfuitextfielddelegate
 | UITextView                         | ✔️ | ❌ | dfuitextview
@@ -59,7 +62,7 @@
 | CGRect-Double                      | ❌ | ✔️ | dfcgrectdouble
 | CGRect-Int                         | ❌ | ✔️ | dfcgrectint
 | UIEdgeInsets                       | ❌ | ✔️ | dfuiedgeinsets
-
+|||| 
 
 
 <br>
@@ -67,7 +70,7 @@
 ## 使用：
 1、下载，并复制CodeSnippets文件夹下的所有文件
 <br>
-2、在mac的finder中前往文件夹地址：
+2、finder中前往文件夹地址：(地址找不到就找~/Library/Developer/Xcode/UserData，并新建CodeSnippets文件夹)
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets
 ```
@@ -77,4 +80,4 @@
 
 #  ❀❀❀❀❀❀❀❀❀❀❀❀  Thanks  ❀❀❀❀❀❀❀❀❀❀❀
 
-<!-- 我认为这是一件有趣的事情，如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。 -->
+如果有好的代码块建议，在<a href="https://github.com/ihoudf/DFCodeBlocks/issues" target="blank">这里</a>提交，参与者将列举在这。

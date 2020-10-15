@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>dfprivatelet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, &lt;#strong#&gt;) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>    &lt;#private#&gt; let &lt;#name#&gt;: &lt;#View#&gt; = {
+    
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>459DFFF9-6CCE-45F4-9F7F-DE52F0697707</string>
+	<string>75261B13-8C93-49B8-AD26-000069115469</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property</string>
+	<string>privatelet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

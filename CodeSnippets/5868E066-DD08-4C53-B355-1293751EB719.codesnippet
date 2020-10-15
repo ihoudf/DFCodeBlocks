@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>dfavailable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, &lt;#strong#&gt;) &lt;#Class#&gt; *&lt;#name#&gt;;</string>
+	<string>if (@available(iOS &lt;#11.0#&gt;, *)) {
+                
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>459DFFF9-6CCE-45F4-9F7F-DE52F0697707</string>
+	<string>5868E066-DD08-4C53-B355-1293751EB719</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property</string>
+	<string>available</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
