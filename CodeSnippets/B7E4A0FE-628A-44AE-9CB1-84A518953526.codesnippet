@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuitextfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    let &lt;#tf#&gt; = UITextField()
+    &lt;#tf#&gt;.backgroundColor = &lt;#.white#&gt;
+    &lt;#tf#&gt;.text = &lt;#""#&gt;
+    &lt;#tf#&gt;.textColor = &lt;#.black#&gt;
+    &lt;#tf#&gt;.font = .systemFont(ofSize: &lt;#15#&gt;)
+    &lt;#tf#&gt;.isSecureTextEntry = &lt;#false#&gt;
+    &lt;#tf#&gt;.textAlignment = &lt;#.left#&gt;
+    &lt;#tf#&gt;.borderStyle = &lt;#.none#&gt;
+    &lt;#tf#&gt;.placeholder = &lt;#""#&gt;
+    &lt;#tf#&gt;.attributedPlaceholder = &lt;#""#&gt;
+    &lt;#tf#&gt;.clearsOnBeginEditing = &lt;#false#&gt;
+    &lt;#tf#&gt;.delegate = self
+    &lt;#tf#&gt;.keyboardType = &lt;#.default#&gt;
+    &lt;#tf#&gt;.returnKeyType = &lt;#.default#&gt;
+    &lt;#tf#&gt;.isEditing = &lt;#true#&gt;
+    &lt;#tf#&gt;.clearButtonMode = &lt;#.whileEditing#&gt;
+    &lt;#tf#&gt;.cornerRadius = &lt;#8#&gt;
+    &lt;#tf#&gt;.leftView = &lt;#UIView()#&gt;
+    &lt;#tf#&gt;.leftViewMode = &lt;#.always#&gt;
+    &lt;#tf#&gt;.rightView = &lt;#UIView()#&gt;
+    &lt;#tf#&gt;.rightViewMode = &lt;#.always#&gt;
+    &lt;#view#&gt;.addSubview(&lt;#tf#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B7E4A0FE-628A-44AE-9CB1-84A518953526</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

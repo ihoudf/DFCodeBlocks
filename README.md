@@ -41,11 +41,11 @@
 | UIButton                           | ✔️ | ✔️ | dfuibutton
 | UILabel                            | ✔️ | ✔️ | dfuilabel
 | UIImageView                        | ✔️ | ✔️ | dfuiimageview
-| UITextField                        | ✔️ | ❌ | dfuitextfield
-| UITextFieldDelegate                | ✔️ | ❌ | dfuitextfielddelegate
+| UITextField                        | ✔️ | ✔️| dfuitextfield
+| UITextFieldDelegate                | ✔️ | ✔️| dfuitextfielddelegate
 | UITextView                         | ✔️ | ❌ | dfuitextview
 | UITextViewDelegate                 | ✔️ | ❌ | dftextviewdelegate
-| UIScrollView                       | ✔️ | ❌ | dfuiscrollview
+| UIScrollView                       | ✔️ | ✔️| dfuiscrollview
 | UIScrollViewDelegate               | ✔️ | ❌ | dfuiscrollviewdelegate
 | UITableView                        | ✔️ | ❌ | dfuitableview
 | UITableViewDelegate                | ✔️ | ❌ | dfuitableviewdelegate

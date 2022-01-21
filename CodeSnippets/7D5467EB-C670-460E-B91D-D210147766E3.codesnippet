@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuitextfielddelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UITextFieldDelegate
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -&gt; Bool {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldShouldEndEditing(_ textField: UITextField) -&gt; Bool {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        &lt;#code#&gt;
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -&gt; Bool {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -&gt; Bool {
+        &lt;#code#&gt;
+    }
+    
+    func textFieldShouldClear(_ textField: UITextField) -&gt; Bool {
+        &lt;#code#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7D5467EB-C670-460E-B91D-D210147766E3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextFieldDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
