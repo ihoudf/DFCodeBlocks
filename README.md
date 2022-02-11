@@ -38,6 +38,7 @@
 | private let                        | ❌ | ✔️ | dfprivatelet
 | UIViewControllerLifeCycle          | ✔️ | ✔️ | dfvclifecycle
 | UIView                             | ✔️ | ✔️ | dfuiview
+| UIStackView                        | ❌ | ✔️ | dfuistackview
 | UIButton                           | ✔️ | ✔️ | dfuibutton
 | UILabel                            | ✔️ | ✔️ | dfuilabel
 | UIImageView                        | ✔️ | ✔️ | dfuiimageview
