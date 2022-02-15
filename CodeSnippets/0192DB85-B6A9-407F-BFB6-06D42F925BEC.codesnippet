@@ -13,8 +13,8 @@
     &lt;#stackV#&gt;.axis = .&lt;#vertical#&gt;
     &lt;#stackV#&gt;.spacing = &lt;#0#&gt;
     &lt;#stackV#&gt;.alignment = .&lt;#fill#&gt;
-    &lt;#stackV#&gt;.distribution = .&lt;#fillEqually#&gt;
-    &lt;#view.#&gt;addSubview(&lt;#stackV#&gt;)</string>
+    &lt;#stackV#&gt;.distribution = .&lt;#equalSpacing#&gt;
+    &lt;#view#&gt;.addSubview(&lt;#stackV#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0192DB85-B6A9-407F-BFB6-06D42F925BEC</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -26,6 +26,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
