@@ -35,6 +35,8 @@
 | mark                               | ✔️ | ✔️ | mark
 | todo                               | ❌ | ✔️ | todo
 | fixme                              | ❌ | ✔️ | fixme
+| #if DEBUG #endif                   | ❌ | ✔️ | ifdebug-endif
+| #if DEBUG #else #endif             | ❌ | ✔️ | ifdebug-else-endif
 | private let                        | ❌ | ✔️ | dfprivatelet
 | UIViewControllerLifeCycle          | ✔️ | ✔️ | dfvclifecycle
 | UIView                             | ✔️ | ✔️ | dfuiview
@@ -44,9 +46,9 @@
 | UIImageView                        | ✔️ | ✔️ | dfuiimageview
 | UITextField                        | ✔️ | ✔️| dfuitextfield
 | UITextFieldDelegate                | ✔️ | ✔️| dfuitextfielddelegate
-| UITextView                         | ✔️ | ❌ | dfuitextview
+| UITextView                         | ✔️ | ✔️ | dfuitextview
 | UITextViewDelegate                 | ✔️ | ❌ | dftextviewdelegate
-| UIScrollView                       | ✔️ | ✔️| dfuiscrollview
+| UIScrollView                       | ✔️ | ✔️ | dfuiscrollview
 | UIScrollViewDelegate               | ✔️ | ❌ | dfuiscrollviewdelegate
 | UITableView                        | ✔️ | ❌ | dfuitableview
 | UITableViewDelegate                | ✔️ | ❌ | dfuitableviewdelegate
@@ -76,6 +78,9 @@
 ~/Library/Developer/Xcode/UserData/CodeSnippets
 ```
 3、将第一步复制的内容，粘贴到第二步的地址下，重启Xcode
+4、在文件内，输入shortcut key，例如dfuiview，可以看到代码提示，按下回车。
+// 如果该代码块控件名可编辑，鼠标放在第一个控件名，连续按快捷键command+option+E，可批量编辑控件名。
+// 如果不可编辑，鼠标放在控件名上，按快捷键command+control+E，可批量编辑控件名。
 
 <br>
 

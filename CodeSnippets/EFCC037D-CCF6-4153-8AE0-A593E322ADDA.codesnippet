@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dftestbtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        let testBtn = UIButton(type: .system)
+        testBtn.frame = CGRect(x: 100, y: 300, width: 50, height: 50)
+        testBtn.backgroundColor = .black
+        self.view.addSubview(testBtn)
+        testBtn.rx.tap.subscribe(onNext: {
+            &lt;#code#&gt;
+        }).disposed(by: disposeBag)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EFCC037D-CCF6-4153-8AE0-A593E322ADDA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TestBtn</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

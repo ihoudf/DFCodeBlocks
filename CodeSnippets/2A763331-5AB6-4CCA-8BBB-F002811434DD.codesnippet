@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dfuitextview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    let tv = UITextView()
+    tv.text = &lt;#""#&gt;
+    tv.textColor = .&lt;#black#&gt;
+    tv.font = .systemFont(ofSize: &lt;#T##CGFloat#&gt;)
+    tv.textAlignment = .&lt;#left#&gt;
+    tv.isEditable = &lt;#true#&gt;
+    &lt;#view#&gt;.addSubview(tv)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2A763331-5AB6-4CCA-8BBB-F002811434DD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITextView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
